@@ -63,16 +63,25 @@ main {
 .about_me {
     background-color: grey;
     padding: 5%;
+    text-align: left;
+}
+
+.about_me div {
+    
 }
 
 .about_me img {
     max-width: 400px;
     height: auto;
     border-radius: 20%;
+    display: inline-block;
+
 }
 
-.about_me article {
-    float: right;
+.about_me p {
+    display: inline-block;
+    padding: 25px;
+    text-align: left;
 }
 
 a:hover {
