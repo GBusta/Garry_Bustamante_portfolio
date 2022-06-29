@@ -17,7 +17,8 @@ body {
     background-image: url("../pictures/frontend_webdeveloper.jpg");
     background-size: auto;
     background-size: unset;
-    background-color: #2E2E2E;
+    background-color: #2E2E2E; 
+
 }
 
 header {
@@ -31,10 +32,14 @@ header {
     text-decoration: none;
 }
 
-
+.web-dev-p {
+    margin: auto;
+    padding: auto
+    ;
+}
 
 .top-banner li{
-    list-style-type:none;
+    list-style-type: none;
     float: right;
     padding: 15px;
 }
@@ -46,7 +51,7 @@ header {
 
 main {
     margin: 20px 50px 20px 50px;
-    padding: 20px 50px 20px 50px;
+    padding: 40px 50px 20px 50px;
     background-color: #2e2e2e;
 }
 
@@ -60,14 +65,11 @@ main {
 }*/
 /*About Me section*/
 
-h2 {
-    size-adjust: 500px;
-    padding: 15px;
-}
+
 
 .about_me {
     background-color: grey;
-    padding: 10%;
+    padding: 5%;
     flex-direction: row;
 }
 
@@ -75,13 +77,20 @@ h2 {
     display: flex;
 }
 
-#about_me_paragraph {
-    padding-left: 20px;
+.about_me h2 {
+    padding: 5px;
+    width: auto%;
+    text-align: center;
+}
+
+.about_me p {
+    padding-left: 40px;
+    width: auto;
 }
 
 .about_me img {
-    max-width: 400px;
-    height: 400px;
+    max-width: 25%;
+    height: 25%;
     border-radius: 20%;
 }
 
@@ -92,9 +101,7 @@ header a:hover {
 
 
 @media (min-width: 786px) {
-.about_me {
-    flex-direction: column;
+    body {
+        flex-direction: column;
+        }
     }
-}
-
-
