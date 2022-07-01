@@ -1,107 +1,23 @@
-:root {
-    --first-color: 
-    --second-color:
-    --third-color:
-}
-
-*{
-    padding: 0;
+* {
     margin: 0;
-    font-family: helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
-    color: beige;
+    padding: 0;
 }
 
-body {
-    background-image: url("../pictures/frontend_webdeveloper.jpg");
-    background-size: auto;
-    background-size: unset;
-    background-color: #2E2E2E; 
-
-}
-
-header {
-    font-weight: bold;
-    padding: 30px 15px 50px 25px;
-    background-color: #2e2e2e;
-}
-
-.top-banner a {
-    color:cornflowerblue;
-    text-decoration: none;
-}
-
-.web-dev-p {
-    margin: auto;
-    padding: auto
-    ;
-}
-
-.top-banner li{
-    list-style-type: none;
-    float: right;
-    padding: 15px;
-}
-
-.top-banner li a {
-    color: #FFF974;
-    text-decoration: none;
-}
-
-main {
-    margin: 20px 50px 20px 50px;
-    padding: 40px 50px 20px 50px;
-    background-color: #2e2e2e;
-}
-
-/*.hero {   
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    opacity: var(#5C5C5C);
-    
-}*/
-/*About Me section*/
-
-
-
-.about_me {
-    background-color: grey;
-    padding: 5%;
-    flex-direction: row;
-}
-
-.about_me div {
+.top-banner {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.about_me h2 {
-    padding: 5px;
-    width: auto%;
-    text-align: center;
+.top-banner p {
+    align-content: flex-start;
+    display: block;
 }
 
-.about_me p {
-    padding-left: 40px;
-    width: auto;
+nav {
+    border: solid, 2px;
 }
-
-.about_me img {
-    max-width: 25%;
-    height: 25%;
-    border-radius: 20%;
+.navigation {
+    text-decoration: none;
+    display: inline-block;
 }
-
-header a:hover {
-    color: rebeccapurple;
-    text-shadow: #FFF974;
-}
-
-
-@media (min-width: 786px) {
-    body {
-        flex-direction: column;
-        }
-    }
