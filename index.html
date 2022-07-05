@@ -13,7 +13,7 @@
             <!-- Navigation links -->
             <nav class="site-nav grid">
                 <h1><a href="index.html">Garry Bustamante</a></h1>
-                <p class="web-dev-p">Web Development made simple</p>
+                <h2>Web Development made simple</h2>
                 <ul>
                     <li><a href="#about_me">About me</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -24,8 +24,8 @@
         </Header>
 
         <main>
-            <section id="about-me" class="about-me"></section>
-                <h2>About Me</h2>
+            <section id="about-me" class="grid"></section>
+                <h3>About Me</h3>
                 <div>
                     <img src="pictures\garry_with_cigar.jpg" class="about_me_img">
                     <p id="about_me_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate.</p>
@@ -33,25 +33,46 @@
             </section>
             <!-- Skills -->
             <section id="skills">
-                <h2>Skills</h2>
-                <div>
-                    <h3>HTML</h3>
-                    <h3>CSS</h3>
-                    <h3>JavaScript</h3>
-                </div>
+                <h3>Skills</h3>
+                <ul class="grid">
+                    <li>
+                        <h4>HTML</h4>
+                        <img src="" alt="">
+                    </li>
+                    <li>
+                        <h4>CSS</h4>
+                        <img src="" alt="">
+                    </li>
+                    <li>
+                        <h4>JavaScript</h4>
+                        <img src="" alt="">
+                    </li>
+                </ul>
             </section>
             <!-- Projects -->
             <section id="projects">
-                <h2>Projects</h2>
-                    <h3>Uni-QOL</h3>
+                <h3>Projects</h3>
+                    <h4>Uni-QOL</h4>
             </section>
             <section id="contact">
-                <h2></h2>
+                <h3>Contact Me</h3>
+                <p class="leading">Please fill out the form below to get in contact with me.</p>
+                <form>
+                    <input type="text" placeholder="PLEASE ENTER NAME">
+                    <input type="email" placeholder="PLEASE ENTER EMAIL">
+                    <textarea placeholder="PLEASE ENTER YOUR MESSAGE"></textarea>
+                    <button class="button">Send Flare</button>
+                </form>
             </section>
         </main>
 
         <footer>
-            <a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a>
+            <div class="grid">
+                <a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a>
+                <!-- Enter img and link to LinkedIn and GitHub -->
+                <li><a href=""><img src="" alt="LinkedIn"></a></li>
+                <li><a href=""><img src="" alt="GitHub"></a></li>
+            </div>
         </footer>
 
     </body>
