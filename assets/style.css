@@ -21,7 +21,6 @@ li {
 /* base styles */
 a:link, a:visited {
     text-decoration: none;
-    decoration: none;
     color: var(--primary);
 }
 
