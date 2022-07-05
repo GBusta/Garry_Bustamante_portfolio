@@ -97,4 +97,12 @@ h1,h2,h3 {
     }
 }
 
+/* grid testing */
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.projects a {
+    text-align: center;
+}
