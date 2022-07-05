@@ -1,24 +1,42 @@
  * {
     scroll-behavior: smooth;
 }
-/*
-.top-banner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+/* variables */
+:root{
+    --primary: #FFC636;
+    --secondary: #0A0B5B;
 }
 
-.top-banner p {
-    align-content: flex-start;
-    display: block;
-}
-
-nav {
-    border: solid, 2px;
-}
-
-.navigation {
+/* reset */
+body,p,a,ul,li{
+    margin: 0;
+    padding: 0;
     text-decoration: none;
-    display: inline-block;
-    border: solid, black
-} */
+}
+li {
+    list-style-type: none;
+}
+
+/* base styles */
+
+/* fonts */
+
+/* mobile styles */
+
+/* small tablet styles  */
+@media screen and (min-width: 620px) {
+
+}
+
+/* large tablet & laptop styles */
+@media screen and (min-width: 960px) {
+    
+}
+
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+
+}
+
+
