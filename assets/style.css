@@ -5,7 +5,7 @@
 /* variables */
 :root {
     --primary: #FFC636;
-    --secondary: #0A0B5B;
+    --secondary: #2E2E2E;
 }
 
 /* reset */
@@ -19,11 +19,22 @@ li {
 }
 
 /* base styles */
+a:link, a:visited {
+    text-decoration: none;
+    decoration: none;
+    color: var(--primary);
+}
+
 body {
     background: var(--secondary);
     overflow-x: hidden;
     font-family: "Mingzat Regular";
 }
+
+h1 {
+    color: var(--primary);
+}
+
 .button {
     background: none;
     border: 2px solid var(--primary);
@@ -33,10 +44,12 @@ body {
     text-transform: uppercase;
     box-shadow:  1px 2px 3px rba(0,0,0,0.6);
 }
+
 .button:hover {
     color:  #222;
     background: var(--primary);
 }
+
 input,textarea {
     background: rgba(225, 225, 225, 0.05);
     padding: 10 px 16px;
@@ -44,10 +57,11 @@ input,textarea {
     border: 2px solid #9893D8;
     color: #f2f2f2;
 }
+
 /* fonts */
 @font-face {
     font-family: "Mingzat Regular";
-    src: url('assets/fonts/Mingzat-Regular.ttf');
+    src: url('./fonts/Mingzat-Regular.ttf');
 }
 
 /* mobile styles */
